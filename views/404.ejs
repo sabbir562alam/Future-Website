@@ -2,12 +2,12 @@
 <html lang="en">
   <%- include('partials/head') %>
   <body>
-    <% include partials/header %>
+    <%- include('partials/header') %>
     <main class="container" style="text-align: center;">
-    <h1 style="color: var(--brand); font-size: 2rem;">404 - Page Not Found</h1>
+      <h1 style="color: var(--brand); font-size: 2rem;">404 - Page Not Found</h1>
       <p>Sorry, the page you're looking for doesn't exist.</p>
       <a href="/" class="btn">Go Back Home</a>
     </main>
-    <% include partials/footer %>
+    <%- include('partials/footer') %>
   </body>
 </html>
